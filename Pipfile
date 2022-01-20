@@ -5,7 +5,8 @@ name = "pypi"
 
 [packages]
 django = "*"
-psycopg2-binary = "*"
+channels = "*"
+channels-redis = "*"
 
 [dev-packages]
 

@@ -1,3 +1,0 @@
-CREATE DATABASE chatapp;
-CREATE USER chatappuser WITH PASSWORD 'chatapp';
-GRANT ALL PRIVILEGES ON DATABASE chatapp TO chatappuser;

@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-!s0_@0c+(j466=8mx-cgxx^yh+p@d(#4unyf47x-c(wn!nc8vv'
+SECRET_KEY = 'django-insecure-$75kq%4nroroex&&bs74ky@v=je=g!e_qk6l(mkwkwk_ehp1e)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -69,16 +69,15 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'chatapp_django.wsgi.application'
-ASGI_APPLICATION = 'chatapp-django.asgi.application'
-
+WSGI_APPLICATION = "chatapp_django.wsgi.application"
+ASGI_APPLICATION = "chatapp_django.asgi.application"
 CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
         'CONFIG': {
-            'hosts': [('127.0.0.1', 6379)],
-        }
-    }
+            "hosts": [('127.0.0.1', 6379)],
+        },
+    },
 }
 
 # Database
@@ -86,11 +85,8 @@ CHANNEL_LAYERS = {
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'chatapp',
-        'USER': 'chatappuser',
-        'PASSWORD': 'chatapp',
-        'HOST': 'localhost'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
