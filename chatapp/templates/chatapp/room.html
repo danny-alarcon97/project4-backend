@@ -20,7 +20,7 @@
             </section>
           </div>
 
-          <div class="column is-6 is-offset-4">
+          <div class="column is-6 is-offset-3">
             <div class="box">
               <div id="chat-messages"></div>
             </div>
@@ -36,13 +36,18 @@
               </div>
             </div>
 
-            
+            <small class="has-text-grey-light">Your username: {{ username }}</small>
           </div>
         </div>
       </div>
     </section>
 
+    {{ room_name|json_script:"json-roomname" }}
+    {{ username|json_script:"json-username" }}
+
     <script>
+      const roomName = JSON.parse(document.getElementById('json-roomname').textContent);
+      const userName = JSON.parse(document.getElementById('json-username').textContent);
     </script>
   </body>
 </html>
