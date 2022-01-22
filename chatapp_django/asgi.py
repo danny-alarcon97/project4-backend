@@ -10,7 +10,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'chatapp_django.settings')
 
 application = ProtocolTypeRouter({
     "http": get_asgi_application(),
-    "websockets": AuthMiddlewareStack(
+    "websocket": AuthMiddlewareStack(
         URLRouter(
             chatapp.routing.websockets_urlpatterns
         )
