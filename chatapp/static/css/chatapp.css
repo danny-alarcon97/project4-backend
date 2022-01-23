@@ -1,0 +1,88 @@
+.input {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-bottom: calc(.5em - 1px);
+    padding-left: calc(.75em - 1px);
+    padding-right: calc(.75em - 1px);
+    padding-top: calc(.5em - 1px);
+    position: relative;
+    vertical-align: top
+}
+
+.section {
+    padding: 3rem 1.5rem
+}
+
+.container {
+    max-width:none!important;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 100%
+}
+
+.columns.is-multiline {
+    flex-wrap: wrap
+}
+
+.column.is-6.is-offset-3.mb-6 {
+    flex: none;
+    width:50%;
+}
+
+.hero.is-primary {
+    background-color:#00d1b2;
+    color:#fff
+}
+
+.hero-body {
+    flex-grow:1;
+    flex-shrink:0;
+    padding:3rem 1.5rem 
+}
+
+.title {
+    word-break:break-word;
+    color:#363636;
+    font-size:2rem;
+    font-weight:600;
+    line-height:1.125
+}
+
+.subtitle {
+    word-break:break-word;
+    color:#4a4a4a;
+    font-size:1.25rem;
+    font-weight:400;
+    line-height:1.25
+}
+
+.column.is-4.is-offset-4 {
+    flex:none;
+    width:33.33333%
+}
+
+.field {
+
+}
+
+.control {
+
+}
+
+.button.is-info {
+    background-color:#3298dc;
+    border-color:transparent;
+    color:#fff
+}
+
+
+

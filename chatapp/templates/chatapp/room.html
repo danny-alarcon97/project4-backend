@@ -15,8 +15,7 @@
           <div class="column is-6 is-offset-3 mb-6">
             <section class="hero is-primary">
               <div class="hero-body">
-                <p class="title">Welcome to the Chatroom</p>
-                <p class="subtitle">A simple chat built with Django, Channels and Redis</p>
+                <p class="title">Welcome to the Chatroom: {{ room_name }}</p>
               </div>
             </section>
           </div>
@@ -34,7 +33,7 @@
 
             <div class="field">
               <div class="control">
-                <a class="button is-info" id="chat-message-submit">Submit</a>
+                <a class="button is-info" id="chat-message-submit">Chat</a>
               </div>
             </div>
 
