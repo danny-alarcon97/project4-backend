@@ -1,0 +1,14 @@
+{% load static %}
+<html>
+  <head>
+    <title>ChitChat</title>
+    <link rel="stylesheet" href="{% static 'css/chatapp.css' %}">
+  </head>
+  <body>
+    <h1>ChitChat</h1>
+    <nav>
+      <a href="/">Room Choice</a>
+    </nav>
+    {% block content %} {% endblock %}
+  </body>
+</html>
