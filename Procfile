@@ -1,0 +1,1 @@
+web: gunicorn chatapp_django.wsgi
