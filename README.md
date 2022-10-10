@@ -1,6 +1,6 @@
 # project4-backend
 
-This is a simple chat app named ChitChat that allows its users to enter a chatroom and pick a user name, and commmunicate with other users within that chatroom in real time. The backend was build using Django, Channels, and Redis that uses websockets to add async support. The frontend was made using a combination of python, javascript, HTML, and CSS. The app also has basic authorization for login. 
+This is a simple chat app named ChitChat that allows its users to enter a chatroom and pick a username, and commmunicate with other users within that chatroom in real time. The backend was built using Django, Channels, and Redis that uses websockets to add async support. The frontend was made using a combination of python, javascript, HTML, and CSS. The app also has basic authorization for login. 
 
 # List of Features / Project Summary
 - 
